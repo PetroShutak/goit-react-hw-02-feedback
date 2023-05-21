@@ -4,6 +4,9 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    color: #faf8f8;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
   
   .notification p {
