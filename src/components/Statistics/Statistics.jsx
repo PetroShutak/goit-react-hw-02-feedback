@@ -3,7 +3,7 @@ import css from './Statistics.module.css';
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   <div className={css.statistics}>
-    <h2 className={css.title_stat}>Statistics</h2>
+    {/* <h2 className={css.title_stat}>Statistics</h2> */}
     <p className={css.statItem}>Good: {good}</p>
     <p className={css.statItem}>Neutral: {neutral}</p>
     <p className={css.statItem}>Bad: {bad}</p>
