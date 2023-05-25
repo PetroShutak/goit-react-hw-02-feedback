@@ -3,6 +3,7 @@ import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Statistics/Statistics';
 import { Section } from './Section/Section';
 import { Notification } from './Notification/Notification';
+import { Footer } from './Footer/Footer';
 
 export class App extends Component {
   state = {
@@ -55,6 +56,7 @@ export class App extends Component {
           <Notification message="There is no feedback" />
         )}
         {total > 0 && <Notification message="Thank you for your feedback!" />}
+        <Footer />
       </div>
     );
   }
